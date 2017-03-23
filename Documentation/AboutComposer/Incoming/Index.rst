@@ -1,9 +1,9 @@
 
 .. include:: ../../Includes.txt
 
-==============
-Incoming Texts
-==============
+========
+Incoming
+========
 
 
 .. toctree::
