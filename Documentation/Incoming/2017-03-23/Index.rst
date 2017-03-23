@@ -9,10 +9,15 @@
 ➜ `Tweet AS <https://twitter.com/JochenWeiland/status/844583199112122368>`__, 
 ➜ `Gist AS <https://gist.github.com/alexanderschnitzler/b70680f1878449d4c807127b429bfb71>`__
 
+
+
+
 TYPO3 Composer Integration (Wishlist)
+=====================================
 
 This document gives an overview of the issues I see in the current composer implementation in TYPO3. 
 First of all I'll write it in the form of user stories and afterwards write an actual text.
+
 
 Composer Related Wishes
 -----------------------
@@ -22,6 +27,7 @@ As a developer I want to:
 - ☑ composer init and require typo3/cms 
 - ☑ install TYPO3 extensions via composer
 - ☐ want the dependencies of the required extensions to be resolved recursively
+
 
 TYPO3 Related Wishes
 --------------------
@@ -44,6 +50,7 @@ As Alexander Schnitzler I want:
 - ☐ Extensions to be namespaced (folder structure wise, like in the regular vendor dir) [typo3conf/ext/vendor/extension]
 - ☐ The TER to only act as a GUI/Proxy for available extensions.
 - ☐ The extension manager to be a GUI for composer itself (being operable only if possible)
+
 
 My Vision
 ---------
@@ -117,6 +124,8 @@ never get finished. I don't think that this split, which is still done
 in many areas, is a benefit to TYPO3. One cannot always get everyone 
 aboard but leaving a few behind can make many more join.
 
+
+
 Comment by NamelessCoder
 ========================
 
@@ -174,6 +183,7 @@ board with the idea as a whole and be willing to argue to the next person,
 and the next, etc. that this is in fact the right direction to take. Not 
 just on the technical level but also in the broader scale of being a PHP 
 application in a PHP ecosystem ;)
+
 
 
 Comment by helhum
@@ -266,9 +276,5 @@ be done? Fork! Publish! If your work is convincing, people will adopt. TYPO3
 will adopt.
 
 Welcome to OSS. We all love it (and hate it some times)!
-
-
-
-
 
 
