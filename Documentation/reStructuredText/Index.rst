@@ -21,9 +21,9 @@
 .. The following, first section (= headline) is the 'Document Title'.
 
 
-======================
-reStructuredText
-======================
+========================
+reST: Where to find help
+========================
 
 
 Docutils and Sphinx
