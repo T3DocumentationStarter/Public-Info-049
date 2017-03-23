@@ -120,3 +120,70 @@ It's becoming too many construction sites in just one cms that seem to
 never get finished. I don't think that this split, which is still done 
 in many areas, is a benefit to TYPO3. One cannot always get everyone 
 aboard but leaving a few behind can make many more join.
+
+Comment NamelessCoder
+=====================
+
+NamelessCoder commented 11 hours ago
+
+I whole-heartedly agree with the essence of every argument herein. My two cents 
+about pros and cons, some of which Alex already covered nicely:
+
+Pros
+----
+
+- Less custom inventions in TYPO3 to handle extensions
+- Less TYPO3 infrastructure to maintain
+- Less requirements put on extension authors regarding metadata; no more ext_emconf.php updates.
+- No requirement to initialise projects with a huge composer.json boilerplate, able to 
+  build entire base project using a few key composer require commands
+- Obvious benefits to deployment; compatible with standard deployments of composer packages
+- Packagist is orders of magnitude faster than TYPO3 satis
+- Obvious extension publisher benefits by reducing the need to 
+  1. double-publish and 
+  2. package dependencies in ways composer does not agree with
+  
+Cons
+----
+
+- Drastic change unless EM is also turned into a GUI for composer
+- Controversial change to make EM require presence of composer (that said, 
+  I agree with all the arguments Alex made in this regard)
+- Is a serious amount of work
+- Requires even more work following that, to make obvious improvements to 
+  things like extension folders using vendor parent folders
+
+The way I see it, the two biggest hurdles this would face, has to be the rather
+drastic implicit consequence that EM no longer works without composer (again,
+I agree, we should do this). That's quite controversial given the many (cheap)
+hosting providers that do not provide access to composer. In the end this is 
+a political decision and one that is influenced by user requirements - and 
+acting unilaterally here would probably hurt more than it would benefit 
+TYPO3. But, I refrain from getting too involved in the whole debate about 
+politics towards end users - I stick to the technical arguments as much as 
+possible.
+
+The second big hurdle is the amount of dedicated manpower this would require; 
+involving not just the TYPO3 core developers but also the server team and I
+expect some T3A decision whether or not to fund it. Enough said that it's 
+probably not the optimal timing to call for that manpower this year (and 
+there are other problems that can come from attempting to crowd-fund something
+this integral involving this many participants).
+
+Even though I'm pessimistic about overcoming those two hurdles at the current 
+time I highly encourage the core developers, members of the server team and 
+T3A to consider the points made above. I know plans are being thought out, 
+but given the scale of this, we need as many people as possible to be on 
+board with the idea as a whole and be willing to argue to the next person,
+and the next, etc. that this is in fact the right direction to take. Not 
+just on the technical level but also in the broader scale of being a PHP 
+application in a PHP ecosystem ;)
+
+
+
+
+
+
+
+
+
