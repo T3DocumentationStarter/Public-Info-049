@@ -9,7 +9,6 @@ About Composer
 .. toctree::
    :hidden: 
 
-   Info/Index
    Incoming/Index
-
-
+   WhatIsIt/Index
+   
