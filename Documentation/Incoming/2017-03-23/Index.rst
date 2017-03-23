@@ -5,9 +5,9 @@
 2013-03-23 TYPO3 Composer Integration (Wishlist)
 ================================================
 
-2017-03-23 `Tweet JW <https://twitter.com/JochenWeiland/status/844583199112122368`__, 
-`Tweet AS <https://twitter.com/JochenWeiland/status/844583199112122368>`__, 
-`Gist AS <https://gist.github.com/alexanderschnitzler/b70680f1878449d4c807127b429bfb71>`__
+2017-03-23 ➜ `Tweet JW <https://twitter.com/JochenWeiland/status/844583199112122368>`__, 
+➜ `Tweet AS <https://twitter.com/JochenWeiland/status/844583199112122368>`__, 
+➜ `Gist AS <https://gist.github.com/alexanderschnitzler/b70680f1878449d4c807127b429bfb71>`__
 
 TYPO3 Composer Integration (Wishlist)
 
