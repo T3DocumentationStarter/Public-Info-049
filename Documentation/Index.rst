@@ -38,6 +38,17 @@ Using Composer With TYPO3
 __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-001/TeachingDocs/StarterManuals/
 
 
+**Note** to alexanderschnitzler, helhum, NamelessCoder:
+
+- You are admin of this Github repository
+- You can write here as easy as writing in a Gist
+- Please do so!
+
+**No cloning, no fork, no commit message required.** Just "Edit me on Github", write, save.
+
+
+
+
 **Contents:**
 
 .. toctree::
