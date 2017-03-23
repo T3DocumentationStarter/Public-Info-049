@@ -1,9 +1,12 @@
 
 .. include:: ../../Includes.txt
 
-=====
-Info
-=====
+=================
+What is Composer?
+=================
+
+((fill in here))
+
 
 See:
 
