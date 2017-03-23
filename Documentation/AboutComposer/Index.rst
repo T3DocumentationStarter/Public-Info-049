@@ -1,14 +1,19 @@
 
 .. include:: ../Includes.txt
 
-============
+==============
 About Composer
-============
+==============
 
 
-.. toctree::
-   :hidden: 
+What is Composer?
+=================
 
-   Incoming/Index
-   WhatIsIt/Index
-   
+((fill in here))
+
+
+See also:
+
+- https://composer.typo3.org/
+- ...
+
