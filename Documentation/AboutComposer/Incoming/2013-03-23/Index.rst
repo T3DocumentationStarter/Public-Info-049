@@ -117,8 +117,8 @@ never get finished. I don't think that this split, which is still done
 in many areas, is a benefit to TYPO3. One cannot always get everyone 
 aboard but leaving a few behind can make many more join.
 
-Comment NamelessCoder
-=====================
+Comment by NamelessCoder
+========================
 
 NamelessCoder commented 11 hours ago
 
@@ -176,7 +176,96 @@ just on the technical level but also in the broader scale of being a PHP
 application in a PHP ecosystem ;)
 
 
+Comment by helhum
+=================
 
+helhum commented 8 hours ago
+
+Thanks for the writeup. For me it does not have any surprising things in it and 
+I agree with most of what you and Claus have been written. I disagree with some 
+and have different opinions on some technical details.
+
+What surprises me a bit are two things.
+
+1. Much things on the wishlist are already possible with little configuration and 
+   the help of TYPO3 Console
+
+2. The focus on what we don't have instead of the celebration of what we achieved 
+   already.Let's look at what is possible already first:
+
+..
+
+   one can simply drop the step of having packages with installed/uninstalled states
+   
+typo3cms install:generatepackagestate exists for years now and was constantly improved. 
+I'm now close to generate it on a regular composer install run without any other 
+scripts config to be required. The only thing that holds me back is backwards 
+compatiblity. Once I have this resolved, when using TYPO3 Console it will just 
+work like you describe. It already works like that if you add one line to your 
+composer scripts.
+
+   I hate installing typo3-ter/foo extensions because it is the reason for most
+   issues I have with TYPO3 and composer
+
+We officially recommended to extension authors to publish their code to Github 
+and a little later recommended to register them on packagist. Many extensions 
+(including compat6 you complain about) are available on packagist, resolving all 
+issues you have with composer.typo3.org. Just use extension packages from packagist
+and be done. If you need an extension on packagist, talk to the authors, help them
+to get this done. It makes more sense to invest the time in that, than working
+on a legacy layer (composer.typo3.org), which will obsolete itself anyway much 
+faster than we can provide things like a composer UI. In a recent TYPO3 8 project,
+I don't even need this composer repo any more.
+
+Now to the focus on the negative
+
+   Do we really want to live with the status quo
+
+What makes you think that this is the case? Do you think things are moving too slow?
+I disagree. We are in a transition phase. Sometimes this hurts a bit, but it is 
+important to finally heal. We can't move faster than our developers. With that 
+I mean developers in agencies, extension developer and also core developers.
+What works great for you, needs time to sink in for others. This is really nothing 
+to worry about.
+
+Are we really moving slow? Look at the amount of extensions on Packagist, or the 
+traffic in the Slack #composer channel. Consider the #continuous-delivery channel 
+popping up. Not only technical implementation or limitations should be considered, 
+but the social dynamics, shift in mindset that is constantly happening. I consider
+these things much more important than getting rid of the ext_emconf.php file,
+which does not really matter much, is not much hassle to handle but a huge amount 
+of work to get rid of. Same is true for the boilerplate currently necessary in the 
+composer.json file. It is so much easier to copy that around or take a minute to 
+explain that to newbies, than to change things in that area without breaking 
+existing (composer) workflows for a bunch of users.
+
+I'm convinced that a big budget, political decisions, loads of development hours 
+cannot significantly mitigate the pain some of us feel in this transition phase. 
+We are all learning and adopting new workflows. What would have a greater impact 
+is to educate ourselves and help others. The technical things will follow 
+naturally when the is there.
+
+Look at TYPO3 Console for a last time. When I created it, people questioned the 
+project for years. Now it has become a natural choice for composer based but also 
+non composer based projects. Although I recommend it to be used with composer, I 
+take the (sometimes not so small) effort of also providing it as extension, 
+because 
+
+a) I think it is important to not cut off a significant user base and 
+b) I'm convinced that people using the console in non composer mode will adopt 
+   a certain mindset that will help to adopt composer based workflows lateron.
+
+Conclusion
+----------
+
+Wishes are fine as is challenging the status quo. However in the end, time is 
+better spent on educating and helping others. This will already improve the 
+status quo and potentially gets more people on board to work on moving forward. 
+Transitions are hard. Get help and help others. You still think more needs to 
+be done? Fork! Publish! If your work is convincing, people will adopt. TYPO3 
+will adopt.
+
+Welcome to OSS. We all love it (and hate it some times)!
 
 
 
