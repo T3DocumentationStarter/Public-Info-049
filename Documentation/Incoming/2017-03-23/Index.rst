@@ -1,5 +1,5 @@
 
-.. include:: ../../../Includes.txt
+.. include:: ../../Includes.txt
 
 ================================================
 2013-03-23 TYPO3 Composer Integration (Wishlist)
