@@ -15,5 +15,5 @@ What is Composer?
 See also:
 
 - https://composer.typo3.org/
-- ...
+- https://packagist.com/
 
