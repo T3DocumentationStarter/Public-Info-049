@@ -38,11 +38,9 @@ Using Composer With TYPO3
 __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-001/TeachingDocs/StarterManuals/
 
 
+**Contents:**
 
 .. toctree::
-   :hidden:
-
+   
    AboutComposer/Index
-   Hyperlinks/Index
-   reStructuredText/Index
-
+   
