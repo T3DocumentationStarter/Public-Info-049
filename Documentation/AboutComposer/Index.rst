@@ -2,7 +2,7 @@
 .. include:: ../Includes.txt
 
 ============
-Hello World!
+About Composer
 ============
 
 Here I go!
