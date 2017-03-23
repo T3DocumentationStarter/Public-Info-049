@@ -52,7 +52,7 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
 
 
 
-**Contents:**
+.. **Contents:**
 
 .. toctree::
    :hidden:
