@@ -26,7 +26,11 @@ See also:
 Available TYPO3 extension packages
 ==================================
 
-- `list and search <https://composer.typo3.org/satis.html>`__
+.. rst-class:: horizbuttons-primary-xxl
+
+- `list and search extensions <https://composer.typo3.org/satis.html>`__
+
+
 
 .. highlight:: json
 
