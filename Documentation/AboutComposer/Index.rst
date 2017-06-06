@@ -20,6 +20,7 @@ See also:
 
 - https://composer.typo3.org/
 - https://packagist.com/
+- https://wiki.typo3.org/Composer
 
 
 Writings
