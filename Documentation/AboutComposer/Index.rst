@@ -28,3 +28,6 @@ Writings
 
 - Blogpost: `How to install TYPO3 using composer (in less than 5 minutes)
   <https://typo3.com/more/blog/how-to-install-typo3-using-composer-in-less-than-5-minutes/>`__, 2017-04-10
+  
+- Blogpost (de): `Composer zur Installation und Verwaltung von TYPO3 verwenden
+  <https://www.clickstorm.de/blog/composer-installation-verwaltung-typo3/>`__, 2017-01-05
